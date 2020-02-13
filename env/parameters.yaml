@@ -1,0 +1,15 @@
+adminUser:
+  password: vault:opsdev-gkeuswes1/adminUser:password
+  username: admin
+docker:
+  email: modernappsninja-owners@googlegroups.com
+  password: vault:opsdev-gkeuswes1/docker:password
+  url: https://index.docker.io/v1/
+  username: modernappsninja
+enableDocker: true
+pipelineUser:
+  email: modernappsninja-jxbot@googlegroups.com
+  token: vault:opsdev-gkeuswes1/pipelineUser:token
+  username: modernappsninja-jxbot
+prow:
+  hmacToken: vault:opsdev-gkeuswes1/prow:hmacToken
